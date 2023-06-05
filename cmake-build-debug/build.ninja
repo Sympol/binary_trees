@@ -1,0 +1,846 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: binary_trees
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/peterchibunna/Downloads/ALX_SE/binary_trees/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target binary_trees
+
+
+#############################################
+# Order-only phony target for binary_trees
+
+build cmake_object_order_depends_target_binary_trees: phony || CMakeFiles/binary_trees.dir
+
+build CMakeFiles/binary_trees.dir/0-binary_tree_node.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/0-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/0-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/0-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/1-binary_tree_insert_left.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/1-binary_tree_insert_left.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/1-binary_tree_insert_left.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/1-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/1-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/10-binary_tree_depth.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/10-binary_tree_depth.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/10-binary_tree_depth.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/10-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/10-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/10-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/100-binary_trees_ancestor.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/100-binary_trees_ancestor.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/100-binary_trees_ancestor.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/100-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/100-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/100-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/101-binary_tree_levelorder.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/101-binary_tree_levelorder.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/101-binary_tree_levelorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/101-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/101-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/101-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/102-binary_tree_is_complete.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/102-binary_tree_is_complete.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/102-binary_tree_is_complete.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/102-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/102-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/102-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/103-binary_tree_rotate_left.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/103-binary_tree_rotate_left.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/103-binary_tree_rotate_left.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/103-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/103-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/103-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/104-binary_tree_rotate_right.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/104-binary_tree_rotate_right.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/104-binary_tree_rotate_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/104-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/104-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/104-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/11-binary_tree_size.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/11-binary_tree_size.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/11-binary_tree_size.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/11-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/11-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/11-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/110-binary_tree_is_bst.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/110-binary_tree_is_bst.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/110-binary_tree_is_bst.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/110-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/110-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/110-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/111-bst_insert.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/111-bst_insert.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/111-bst_insert.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/111-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/111-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/111-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/112-array_to_bst.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/112-array_to_bst.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/112-array_to_bst.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/112-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/112-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/112-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/113-bst_search.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/113-bst_search.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/113-bst_search.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/113-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/113-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/113-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/114-bst_remove.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/114-bst_remove.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/114-bst_remove.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/114-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/114-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/114-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/12-binary_tree_leaves.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/12-binary_tree_leaves.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/12-binary_tree_leaves.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/12-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/12-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/12-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/120-binary_tree_is_avl.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/120-binary_tree_is_avl.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/120-binary_tree_is_avl.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/120-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/120-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/120-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/121-avl_insert.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/121-avl_insert.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/121-avl_insert.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/121-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/121-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/121-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/122-array_to_avl.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/122-array_to_avl.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/122-array_to_avl.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/122-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/122-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/122-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/123-avl_remove.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/123-avl_remove.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/123-avl_remove.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/123-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/123-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/123-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/124-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/124-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/124-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/124-sorted_array_to_avl.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/124-sorted_array_to_avl.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/124-sorted_array_to_avl.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/13-binary_tree_nodes.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/13-binary_tree_nodes.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/13-binary_tree_nodes.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/13-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/13-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/13-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/130-binary_tree_is_heap.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/130-binary_tree_is_heap.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/130-binary_tree_is_heap.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/130-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/130-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/130-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/131-heap_insert.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/131-heap_insert.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/131-heap_insert.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/131-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/131-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/131-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/132-array_to_heap.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/132-array_to_heap.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/132-array_to_heap.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/132-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/132-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/132-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/133-heap_extract.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/133-heap_extract.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/133-heap_extract.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/133-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/133-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/133-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/134-heap_to_sorted_array.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/134-heap_to_sorted_array.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/134-heap_to_sorted_array.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/134-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/134-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/134-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/14-binary_tree_balance.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/14-binary_tree_balance.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/14-binary_tree_balance.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/14-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/14-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/14-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/15-binary_tree_is_full.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/15-binary_tree_is_full.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/15-binary_tree_is_full.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/15-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/15-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/15-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/16-binary_tree_is_perfect.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/16-binary_tree_is_perfect.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/16-binary_tree_is_perfect.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/16-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/16-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/16-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/17-binary_tree_sibling.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/17-binary_tree_sibling.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/17-binary_tree_sibling.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/17-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/17-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/17-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/18-binary_tree_uncle.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/18-binary_tree_uncle.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/18-binary_tree_uncle.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/18-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/18-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/18-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/2-binary_tree_insert_right.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/2-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/2-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/3-binary_tree_delete.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/3-binary_tree_delete.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/3-binary_tree_delete.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/3-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/3-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/4-binary_tree_is_leaf.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/4-binary_tree_is_leaf.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/4-binary_tree_is_leaf.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/4-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/4-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/4-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/5-binary_tree_is_root.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/5-binary_tree_is_root.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/5-binary_tree_is_root.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/5-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/5-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/6-binary_tree_preorder.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/6-binary_tree_preorder.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/6-binary_tree_preorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/6-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/6-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/6-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/7-binary_tree_inorder.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/7-binary_tree_inorder.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/7-binary_tree_inorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/7-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/7-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/7-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/8-binary_tree_postorder.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/8-binary_tree_postorder.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/8-binary_tree_postorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/8-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/8-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/8-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/9-binary_tree_height.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/9-binary_tree_height.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/9-binary_tree_height.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/9-main.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/9-main.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/9-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+build CMakeFiles/binary_trees.dir/binary_tree_print.c.o: C_COMPILER__binary_trees_Debug /Users/peterchibunna/Downloads/ALX_SE/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_binary_trees
+  DEP_FILE = CMakeFiles/binary_trees.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/peterchibunna/Downloads/ALX_SE/binary_trees/.
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary_trees.dir
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_PDB = binary_trees.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary_trees
+
+
+#############################################
+# Link the executable binary_trees
+
+build binary_trees: C_EXECUTABLE_LINKER__binary_trees_Debug CMakeFiles/binary_trees.dir/0-binary_tree_node.c.o CMakeFiles/binary_trees.dir/0-main.c.o CMakeFiles/binary_trees.dir/1-binary_tree_insert_left.c.o CMakeFiles/binary_trees.dir/1-main.c.o CMakeFiles/binary_trees.dir/10-binary_tree_depth.c.o CMakeFiles/binary_trees.dir/10-main.c.o CMakeFiles/binary_trees.dir/100-binary_trees_ancestor.c.o CMakeFiles/binary_trees.dir/100-main.c.o CMakeFiles/binary_trees.dir/101-binary_tree_levelorder.c.o CMakeFiles/binary_trees.dir/101-main.c.o CMakeFiles/binary_trees.dir/102-binary_tree_is_complete.c.o CMakeFiles/binary_trees.dir/102-main.c.o CMakeFiles/binary_trees.dir/103-binary_tree_rotate_left.c.o CMakeFiles/binary_trees.dir/103-main.c.o CMakeFiles/binary_trees.dir/104-binary_tree_rotate_right.c.o CMakeFiles/binary_trees.dir/104-main.c.o CMakeFiles/binary_trees.dir/11-binary_tree_size.c.o CMakeFiles/binary_trees.dir/11-main.c.o CMakeFiles/binary_trees.dir/110-binary_tree_is_bst.c.o CMakeFiles/binary_trees.dir/110-main.c.o CMakeFiles/binary_trees.dir/111-bst_insert.c.o CMakeFiles/binary_trees.dir/111-main.c.o CMakeFiles/binary_trees.dir/112-array_to_bst.c.o CMakeFiles/binary_trees.dir/112-main.c.o CMakeFiles/binary_trees.dir/113-bst_search.c.o CMakeFiles/binary_trees.dir/113-main.c.o CMakeFiles/binary_trees.dir/114-bst_remove.c.o CMakeFiles/binary_trees.dir/114-main.c.o CMakeFiles/binary_trees.dir/12-binary_tree_leaves.c.o CMakeFiles/binary_trees.dir/12-main.c.o CMakeFiles/binary_trees.dir/120-binary_tree_is_avl.c.o CMakeFiles/binary_trees.dir/120-main.c.o CMakeFiles/binary_trees.dir/121-avl_insert.c.o CMakeFiles/binary_trees.dir/121-main.c.o CMakeFiles/binary_trees.dir/122-array_to_avl.c.o CMakeFiles/binary_trees.dir/122-main.c.o CMakeFiles/binary_trees.dir/123-avl_remove.c.o CMakeFiles/binary_trees.dir/123-main.c.o CMakeFiles/binary_trees.dir/124-main.c.o CMakeFiles/binary_trees.dir/124-sorted_array_to_avl.c.o CMakeFiles/binary_trees.dir/13-binary_tree_nodes.c.o CMakeFiles/binary_trees.dir/13-main.c.o CMakeFiles/binary_trees.dir/130-binary_tree_is_heap.c.o CMakeFiles/binary_trees.dir/130-main.c.o CMakeFiles/binary_trees.dir/131-heap_insert.c.o CMakeFiles/binary_trees.dir/131-main.c.o CMakeFiles/binary_trees.dir/132-array_to_heap.c.o CMakeFiles/binary_trees.dir/132-main.c.o CMakeFiles/binary_trees.dir/133-heap_extract.c.o CMakeFiles/binary_trees.dir/133-main.c.o CMakeFiles/binary_trees.dir/134-heap_to_sorted_array.c.o CMakeFiles/binary_trees.dir/134-main.c.o CMakeFiles/binary_trees.dir/14-binary_tree_balance.c.o CMakeFiles/binary_trees.dir/14-main.c.o CMakeFiles/binary_trees.dir/15-binary_tree_is_full.c.o CMakeFiles/binary_trees.dir/15-main.c.o CMakeFiles/binary_trees.dir/16-binary_tree_is_perfect.c.o CMakeFiles/binary_trees.dir/16-main.c.o CMakeFiles/binary_trees.dir/17-binary_tree_sibling.c.o CMakeFiles/binary_trees.dir/17-main.c.o CMakeFiles/binary_trees.dir/18-binary_tree_uncle.c.o CMakeFiles/binary_trees.dir/18-main.c.o CMakeFiles/binary_trees.dir/2-binary_tree_insert_right.c.o CMakeFiles/binary_trees.dir/2-main.c.o CMakeFiles/binary_trees.dir/3-binary_tree_delete.c.o CMakeFiles/binary_trees.dir/3-main.c.o CMakeFiles/binary_trees.dir/4-binary_tree_is_leaf.c.o CMakeFiles/binary_trees.dir/4-main.c.o CMakeFiles/binary_trees.dir/5-binary_tree_is_root.c.o CMakeFiles/binary_trees.dir/5-main.c.o CMakeFiles/binary_trees.dir/6-binary_tree_preorder.c.o CMakeFiles/binary_trees.dir/6-main.c.o CMakeFiles/binary_trees.dir/7-binary_tree_inorder.c.o CMakeFiles/binary_trees.dir/7-main.c.o CMakeFiles/binary_trees.dir/8-binary_tree_postorder.c.o CMakeFiles/binary_trees.dir/8-main.c.o CMakeFiles/binary_trees.dir/9-binary_tree_height.c.o CMakeFiles/binary_trees.dir/9-main.c.o CMakeFiles/binary_trees.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  LINK_FLAGS = -L/opt/homebrew/opt/ruby/lib
+  OBJECT_DIR = CMakeFiles/binary_trees.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/binary_trees.dir/
+  TARGET_FILE = binary_trees
+  TARGET_PDB = binary_trees.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/peterchibunna/Downloads/ALX_SE/binary_trees/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/peterchibunna/Downloads/ALX_SE/binary_trees/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/peterchibunna/Downloads/ALX_SE/binary_trees -B/Users/peterchibunna/Downloads/ALX_SE/binary_trees/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/peterchibunna/Downloads/ALX_SE/binary_trees/cmake-build-debug
+
+build all: phony binary_trees
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/peterchibunna/Downloads/ALX_SE/binary_trees/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/peterchibunna/Downloads/ALX_SE/binary_trees/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
